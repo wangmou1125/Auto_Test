@@ -1,0 +1,6 @@
+2025-03-28 13:49:29 - BaseApi - INFO - 开始登录，用户名: WangNing
+2025-03-28 13:49:29 - BaseApi - INFO - 请求URL: http://192.168.46.5:41805/prod-api/auth/login
+2025-03-28 13:49:29 - BaseApi - INFO - 请求方法: POST
+2025-03-28 13:49:29 - BaseApi - INFO - 请求参数: {"username": "WangNing", "password": 123456, "roleId": 1}
+2025-03-28 13:49:29 - BaseApi - INFO - 响应状态码: 200
+2025-03-28 13:49:29 - BaseApi - INFO - 响应结果: {"msg":"登录账号不存在","code":500}

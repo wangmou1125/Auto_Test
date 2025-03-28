@@ -1,0 +1,33 @@
+#测试环境
+env:
+  url: http://192.168.46.5:41805/login?redirect=%2Findex
+  browser: chrome
+  implicit_wait: 10
+#ERP系统登录页元素
+erp_login:
+  url: http://192.168.46.5:41805/login?redirect=%2Findex
+login_page_locators:
+  username_input:
+    by: id
+    value: username
+  password_input:
+    by: id
+    value: password
+  login_button:
+    by: id
+    value: signIn
+  login_error_message:
+    by: class_name
+    value: el-message__content
+#ERP系统主体内容
+erp_add_manage:
+  url: http://192.168.46.5:41805/gen/product/manage
+add_manage_page_locators:
+  add_manage_button:
+    by: css_selector
+    value: button[class*='is-plain']
+  add_product_name:
+    by: css_selector
+    value: input[maxlength='50']
+
+

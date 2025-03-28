@@ -1,0 +1,42 @@
+# 日志配置文件
+# version: 日志配置版本号
+version: 1
+
+# formatters: 定义日志的格式化方式
+formatters:
+  # default: 默认的日志格式
+  default:
+    # format: 日志消息的格式，包含时间、日志器名称、日志级别和消息内容
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    # datefmt: 时间的格式化方式，使用标准的日期时间格式
+    datefmt: '%Y-%m-%d %H:%M:%S'
+# handlers: 定义日志的处理方式
+handlers:
+  # file: 文件处理器，用于将日志写入文件
+  file:
+    class: logging.handlers.RotatingFileHandler  # 使用轮转文件处理器
+    level: DEBUG                  # 设置日志级别为DEBUG
+    formatter: default            # 使用默认的格式化方式
+    filename: reports/logs/%(name)s.log   # 日志文件保存路径（相对路径，由Logger类处理为绝对路径）
+    encoding: utf-8               # 文件编码格式
+    mode: a                       # 追加模式
+    maxBytes: 10485760            # 文件最大大小（10MB）
+    backupCount: 5                # 备份文件数量
+  # console: 控制台处理器，用于将日志输出到控制台
+  console:
+    class: logging.StreamHandler  # 使用流处理器
+    level: INFO                   # 设置日志级别为INFO
+    formatter: default            # 使用默认的格式化方式
+    stream: ext://sys.stdout      # 输出到标准输出
+# loggers: 定义日志记录器
+loggers:
+  # test: 测试专用的日志记录器
+  test:
+    level: DEBUG                  # 设置日志级别为DEBUG
+    handlers: [ file, console ]   # 使用文件和控制台处理器
+    propagate: no                 # 不向上级传播日志消息
+
+# root: 根日志记录器，用于处理未被其他日志记录器捕获的日志
+root:
+  level: INFO                     # 设置日志级别为INFO
+  handlers: [ file, console ]    # 使用文件和控制台处理器

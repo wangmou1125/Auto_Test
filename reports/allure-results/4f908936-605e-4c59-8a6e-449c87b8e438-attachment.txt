@@ -1,0 +1,12 @@
+2025-03-28 13:49:28 - common.model.function - INFO - 开始读取YAML文件: common/config/api_config.yaml
+2025-03-28 13:49:28 - common.model.function - INFO - 成功读取YAML文件: common/config/api_config.yaml
+2025-03-28 13:49:28 - common.model.function - INFO - 开始读取YAML文件: common/config/api_config.yaml
+2025-03-28 13:49:28 - common.model.function - INFO - 成功读取YAML文件: common/config/api_config.yaml
+2025-03-28 13:49:28 - common.model.function - INFO - 开始读取YAML文件: E:\Demo\软件测试\比赛准备\AutoTest\Demo_second\api_test\data\login_api_data.yaml
+2025-03-28 13:49:28 - common.model.function - INFO - 成功读取YAML文件: E:\Demo\软件测试\比赛准备\AutoTest\Demo_second\api_test\data\login_api_data.yaml
+2025-03-28 13:49:29 - BaseApi - INFO - 开始登录，用户名: XTGLY
+2025-03-28 13:49:29 - BaseApi - INFO - 请求URL: http://192.168.46.5:41805/prod-api/auth/login
+2025-03-28 13:49:29 - BaseApi - INFO - 请求方法: POST
+2025-03-28 13:49:29 - BaseApi - INFO - 请求参数: {"username": "XTGLY", "password": 123456, "roleId": 1}
+2025-03-28 13:49:29 - BaseApi - INFO - 响应状态码: 200
+2025-03-28 13:49:29 - BaseApi - INFO - 响应结果: {"code":200,"msg":null,"data":{"access_token":"2c29997d-4bda-4830-98f4-9ed61e509453","name":null,"photo":"","expires_in":43200}}

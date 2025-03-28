@@ -1,0 +1,12 @@
+2025-03-28 13:49:34 - test_ui_login - INFO - 初始化测试环境
+2025-03-28 13:49:35 - common.model.function - INFO - 开始读取YAML文件: E:\Demo\软件测试\比赛准备\AutoTest\Demo_second\common\config\ui_config.yaml
+2025-03-28 13:49:35 - common.model.function - INFO - 成功读取YAML文件: E:\Demo\软件测试\比赛准备\AutoTest\Demo_second\common\config\ui_config.yaml
+2025-03-28 13:49:35 - ui_test.page.base_page - INFO - 打开网址: http://192.168.46.5:41805/login?redirect=%2Findex
+2025-03-28 13:49:36 - test_ui_login - INFO - 开始测试无效登录
+2025-03-28 13:49:36 - test_ui_login - INFO - 测试用例参数 - 用户名: XTGLY, 密码: wrong_password
+2025-03-28 13:49:36 - ui_test.page.base_page - INFO - 输入用户名:XTGLY
+2025-03-28 13:49:36 - ui_test.page.base_page - INFO - 输入密码:wrong_password
+2025-03-28 13:49:36 - ui_test.page.base_page - INFO - 点击元素: ('id', 'signIn')
+2025-03-28 13:49:37 - test_ui_login - INFO - 验证错误信息: 登录密码错误
+2025-03-28 13:49:37 - test_ui_login - INFO - 清理测试环境
+2025-03-28 13:49:37 - ui_test.page.base_page - INFO - 关闭浏览器

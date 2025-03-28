@@ -1,0 +1,6 @@
+case,username,password,expected,type
+正确的用户名和密码,XTGLY,123456,登录成功,valid_login
+错误的密码,XTGLY,wrong_password,登录密码错误,invalid_login
+空用户名,,123456,请输入用户名,invalid_login
+空密码,XTGLY,,请输入密码,invalid_login
+登录账号不存在,WangNing,123456,登录账号不存在,invalid_login

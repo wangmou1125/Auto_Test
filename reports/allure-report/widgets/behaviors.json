@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"76c1a89e029bf2806c0ddb06b8505b0b","name":"登录功能","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"ba71a2b3cb339e9bc73b76d46280767f","name":"API测试","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
