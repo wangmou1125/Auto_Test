@@ -1,0 +1,12 @@
+2025-03-28 15:18:44 - test_ui_login - INFO - 初始化测试环境
+2025-03-28 15:18:46 - common.model.function - INFO - 开始读取YAML文件: E:\Demo\Python\Demo\Auto_Test\common\config\ui_config.yaml
+2025-03-28 15:18:46 - common.model.function - INFO - 成功读取YAML文件: E:\Demo\Python\Demo\Auto_Test\common\config\ui_config.yaml
+2025-03-28 15:18:46 - ui_test.page.base_page - INFO - 打开网址: http://192.168.46.5:41805/login?redirect=%2Findex
+2025-03-28 15:18:46 - test_ui_login - INFO - 开始测试无效登录
+2025-03-28 15:18:46 - test_ui_login - INFO - 测试用例参数 - 用户名: , 密码: 123456
+2025-03-28 15:18:46 - ui_test.page.base_page - INFO - 输入用户名:
+2025-03-28 15:18:46 - ui_test.page.base_page - INFO - 输入密码:123456
+2025-03-28 15:18:46 - ui_test.page.base_page - INFO - 点击元素: ('id', 'signIn')
+2025-03-28 15:18:47 - test_ui_login - INFO - 验证错误信息: 请输入用户名
+2025-03-28 15:18:47 - test_ui_login - INFO - 清理测试环境
+2025-03-28 15:18:47 - ui_test.page.base_page - INFO - 关闭浏览器

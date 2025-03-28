@@ -1,7 +1,0 @@
-2025-03-28 13:49:29 - BaseApi - INFO - 开始登录，用户名: XTGLY
-2025-03-28 13:49:29 - BaseApi - INFO - 请求URL: http://192.168.46.5:41805/prod-api/auth/login
-2025-03-28 13:49:29 - BaseApi - INFO - 请求方法: POST
-2025-03-28 13:49:29 - BaseApi - INFO - 请求参数: {"username": "XTGLY", "password": 123456, "roleId": 1}
-2025-03-28 13:49:29 - BaseApi - INFO - 响应状态码: 200
-2025-03-28 13:49:29 - BaseApi - INFO - 响应结果: {"code":200,"msg":null,"data":{"access_token":"03e5445b-cbaf-4b5d-882d-2c8d1a245ea4","name":null,"photo":"","expires_in":43200}}
-2025-03-28 13:49:29 - BaseApi - INFO - 成功获取token{'access_token': '03e5445b-cbaf-4b5d-882d-2c8d1a245ea4', 'name': None, 'photo': '', 'expires_in': 43200}

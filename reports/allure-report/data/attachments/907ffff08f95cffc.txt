@@ -1,0 +1,6 @@
+[32mINFO    [0m BaseApi:login_api.py:21 开始登录，用户名: None
+[32mINFO    [0m BaseApi:base_api.py:27 请求URL: http://192.168.46.5:41805/prod-api/auth/login
+[32mINFO    [0m BaseApi:base_api.py:28 请求方法: POST
+[32mINFO    [0m BaseApi:base_api.py:34 请求参数: {"username": null, "password": "", "roleId": 1}
+[32mINFO    [0m BaseApi:base_api.py:38 响应状态码: 200
+[32mINFO    [0m BaseApi:base_api.py:39 响应结果: {"msg":"请输入用户名","code":500}

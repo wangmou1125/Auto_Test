@@ -1,7 +1,7 @@
 import json
 import requests
 
-from common.utils.logger_util.Logger import get_logger
+from common.utils.logger_util import get_logger
 from common.model.function import read_yaml
 
 class BaseApi:

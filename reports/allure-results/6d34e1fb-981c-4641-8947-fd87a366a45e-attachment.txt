@@ -1,6 +1,0 @@
-2025-03-28 13:49:29 - BaseApi - INFO - 开始登录，用户名: None
-2025-03-28 13:49:29 - BaseApi - INFO - 请求URL: http://192.168.46.5:41805/prod-api/auth/login
-2025-03-28 13:49:29 - BaseApi - INFO - 请求方法: POST
-2025-03-28 13:49:29 - BaseApi - INFO - 请求参数: {"username": null, "password": "", "roleId": 1}
-2025-03-28 13:49:29 - BaseApi - INFO - 响应状态码: 200
-2025-03-28 13:49:29 - BaseApi - INFO - 响应结果: {"msg":"请输入用户名","code":500}

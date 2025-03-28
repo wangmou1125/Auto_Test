@@ -1,0 +1,12 @@
+[32mINFO    [0m common.model.function:function.py:44 开始读取YAML文件: common/config/api_config.yaml
+[32mINFO    [0m common.model.function:function.py:50 成功读取YAML文件: common/config/api_config.yaml
+[32mINFO    [0m common.model.function:function.py:44 开始读取YAML文件: common/config/api_config.yaml
+[32mINFO    [0m common.model.function:function.py:50 成功读取YAML文件: common/config/api_config.yaml
+[32mINFO    [0m common.model.function:function.py:44 开始读取YAML文件: E:\Demo\Python\Demo\Auto_Test\api_test\data\login_api_data.yaml
+[32mINFO    [0m common.model.function:function.py:50 成功读取YAML文件: E:\Demo\Python\Demo\Auto_Test\api_test\data\login_api_data.yaml
+[32mINFO    [0m BaseApi:login_api.py:21 开始登录，用户名: XTGLY
+[32mINFO    [0m BaseApi:base_api.py:27 请求URL: http://192.168.46.5:41805/prod-api/auth/login
+[32mINFO    [0m BaseApi:base_api.py:28 请求方法: POST
+[32mINFO    [0m BaseApi:base_api.py:34 请求参数: {"username": "XTGLY", "password": 123456, "roleId": 1}
+[32mINFO    [0m BaseApi:base_api.py:38 响应状态码: 200
+[32mINFO    [0m BaseApi:base_api.py:39 响应结果: {"code":200,"msg":null,"data":{"access_token":"e6937402-9d64-4687-966d-7cf2ed3b29cf","name":null,"photo":"","expires_in":43200}}
